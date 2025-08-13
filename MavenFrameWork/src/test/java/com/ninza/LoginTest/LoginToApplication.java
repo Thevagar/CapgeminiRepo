@@ -10,6 +10,8 @@ public class LoginToApplication {
 	
 		FileUtility fUtil=new FileUtility();
 		String BROWSER = fUtil.getDatafromPropertyFile("browser");
+		
+		System.out.println(BROWSER);
 	
 
 	}
